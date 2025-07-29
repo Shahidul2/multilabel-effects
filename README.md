@@ -1,4 +1,4 @@
-# 🧠 Multi-Label Effects Classification of Psychoactive Drugs
+# Multi-Label Effects Classification of Psychoactive Drugs
 
 A transformer-based **multi-label text classification model** that predicts the **subjective psychological effects** of psychoactive substances from **user trip reports**. Due to a smaller dataset, we achieved **55%** accuracy.
 
@@ -6,10 +6,11 @@ A transformer-based **multi-label text classification model** that predicts the 
 
 ## Example Prediction
 
--Input : I saw impossible geometry and felt a strong sense of ego death while colors melted around me.
--Predicted Effects: ['ego death', 'geometry', 'visual distortion', 'unity', 'time distortion']
+- **Input:** I saw impossible geometry and felt a strong sense of ego death while colors melted around me.
+- **Predicted Effects:** ['ego death', 'geometry', 'visual distortion', 'unity', 'time distortion']
 
-## 📚 Source & Data
+
+## Source & Data
 
 - **Source:** [PsychonautWiki](https://psychonautwiki.org/)
 - **Scraping:** Custom Scrapy crawler
@@ -19,7 +20,7 @@ A transformer-based **multi-label text classification model** that predicts the 
 
 ---
 
-## 🧼 Preprocessing & Encoding
+## Preprocessing & Encoding
 
 - Cleaned raw text data and filtered infrequent effects.
 - Converted effect labels into multi-hot encoded vectors.
@@ -27,7 +28,7 @@ A transformer-based **multi-label text classification model** that predicts the 
 
 ---
 
-## 🤖 Model Details
+## Model Details
 
 - **Model:** [`allenai/longformer-base-4096`](https://huggingface.co/allenai/longformer-base-4096)
 - **Frameworks:** FastAI + Blurr (HuggingFace integration)
