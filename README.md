@@ -6,8 +6,8 @@ A transformer-based **multi-label text classification model** that predicts the 
 
 ## Example Prediction
 
-Input : I saw impossible geometry and felt a strong sense of ego death while colors melted around me.
-Predicted Effects: ['ego death', 'geometry', 'visual distortion', 'unity', 'time distortion']
+-Input : I saw impossible geometry and felt a strong sense of ego death while colors melted around me.
+-Predicted Effects: ['ego death', 'geometry', 'visual distortion', 'unity', 'time distortion']
 
 ## 📚 Source & Data
 
